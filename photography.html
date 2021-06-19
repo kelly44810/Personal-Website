@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Kelly Fang</title>
+<link href="css/worksstyle.css"type="text/css"rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--FONT-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
+
+<!--BOOTSTRAP-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<div class="pagewrap">
+
+<!--HEADER-->
+<header class="headingtop">
+  <div class="head1"><a href="./index.html">KELLY FANG</a></div>
+</header>
+<header class="headingbottom">
+  <div class="head2"><a href="./art.html">ART</a></div>
+  <div class="head3"><a href="./photography.html">PHOTOGRAHY</a></div>
+  <div class="head4"><a href="./designs.html">DESIGNS</a></div>
+  <div class="head5"><a href="./contact.html">CONTACT</a></div>
+</header>
+
+<!--PHOTOGRAPHY-->
+<body class="body">
+<div class="wcontainer2">
+<div class="works2">
+<div class="col-md-4 col-sm-12 col-3 work2"><img id="img4" src="img/img1.jpg"></div>
+<div class="col-md-4 col-sm-12 col-3 work2"><img id="img5" src="img/img2.jpg"></div>
+<div class="col-md-4 col-sm-12 col-3 work2"><img id="img6" src="img/img3.jpg"></div>
+<div class="col-md-4 col-sm-12 col-3 work2"><img id="img7" src="img/img10.jpg"></div>
+<div class="col-md-4 col-sm-12 col-3 work2"><img id="img8" src="img/img5.jpg"></div>
+<div class="col-md-4 col-sm-12 col-3 work2"><img id="img9" src="img/img6.jpg"></div>
+<div class="col-md-4 col-sm-12 col-3 work2"><img id="img10" src="img/img11.jpg"></div>
+<div class="col-md-4 col-sm-12 col-3 work2"><img id="img11" src="img/img8.jpg"></div>
+<div class="col-md-4 col-sm-12 col-3 work2"><img id="img12" src="img/img13.jpeg"></div>
+</div>
+</div>
+
+<!--POPUP-->
+<div id="imodal" class="cmodal">
+<span class="close">&times;</span>
+<img class="content" id="modalimg">
+</div>
+</body>
+
+<!--FOOTER-->
+<div class="footer">
+<footer class="footertop">
+  <p>Find me here:</p>
+</footer>
+
+<footer class="footerbottom">
+  <div class="fb">
+  <a href="https://www.facebook.com/fang.yunhsuan/"><img src="img/f1.png"></a>
+</div>
+<div class="ig">
+  <a href="https://www.instagram.com/kellyhsuann/"><img src="img/i1.png"></a>
+</div>
+</footer>
+</div>
+</html>
+
+<!-- <script type="text/javascript">
+			$(document).ready(function(){
+
+$('img').click(function(){
+	$(this).css('width','130%');
+});
+			});
+		</script> -->
+
+<script type="text/javascript">
+
+var modal = document.getElementById("imodal");
+
+var img = document.getElementById("img4");
+var modalImg = document.getElementById("modalimg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var img = document.getElementById("img5");
+var modalImg = document.getElementById("modalimg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var img = document.getElementById("img6");
+var modalImg = document.getElementById("modalimg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var img = document.getElementById("img7");
+var modalImg = document.getElementById("modalimg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var img = document.getElementById("img8");
+var modalImg = document.getElementById("modalimg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var img = document.getElementById("img9");
+var modalImg = document.getElementById("modalimg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var img = document.getElementById("img10");
+var modalImg = document.getElementById("modalimg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var img = document.getElementById("img11");
+var modalImg = document.getElementById("modalimg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var img = document.getElementById("img12");
+var modalImg = document.getElementById("modalimg");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+}
+
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>

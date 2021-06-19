@@ -1,0 +1,278 @@
+* {
+	font-family: 'Darker Grotesque', sans-serif;
+}
+
+.headingtop {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headingtop a {
+	color: #303137;
+	font-size: 50px;
+	text-decoration: none !important;
+}
+
+.headingbottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headingbottom a {
+	color: #303137;
+	font-size: 25px;
+	text-decoration: none !important;
+}
+
+.head1{
+	margin-top: 50px;
+}
+
+.head2 {
+	margin: 50px;
+}
+
+.head3 {
+	margin: 50px;
+}
+
+.head4 {
+	margin: 50px;
+}
+
+.head5 {
+	margin: 50px;
+}
+
+/* img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(1.5); 
+    transform:scale(1.5);
+} */
+
+
+/* Style the Image Used to Trigger the Modal */
+#img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#img:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.cmodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.wcontainer1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.works1 {
+	width: 1000px;
+}
+
+
+.work1 {
+	width: 250px;
+}
+
+.works1 img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.wcontainer2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.works2 {
+	width: 1000px;
+}
+
+
+.work2 {
+	width: 250px;
+}
+
+.works2 img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.wcontainer3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.works3 {
+	width: 1000px;
+}
+
+
+.work3 {
+	width: 250px;
+}
+
+.works3 img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+
+.footer {
+	background-color: #d2b48c;
+	height: 150px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
+	margin-top: 150px;
+}
+
+.footertop {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.footertop p {
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 25px;
+}
+
+.footerbottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footerbottom a img {
+	background-color: transparent;
+} 
+
+.fb a img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.ig a img {
+	width: 40px;
+	height: 40px;
+}
+
+.pagewrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.body {
+	flex-grow: 1;
+}
+
+.universe {
+	margin: 160px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.universetxt h1 {
+	font-size: 50px;
+}
+
+.universetxt p {
+	font-size: 25px;
+}
+
+.aapi {
+	margin: 160px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.aapitxt h1 {
+	font-size: 50px;
+}
+
+.aapitxt p {
+	font-size: 25px;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none !important;
+	filter: none !important;
+}
+
+*{
+	box-sizing: border-box;
+/*	background-color: #FDFEFE; */
+}
+

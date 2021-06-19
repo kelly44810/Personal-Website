@@ -1,0 +1,227 @@
+* {
+	font-family: 'Darker Grotesque', sans-serif;
+}
+
+.headingtop {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headingtop a {
+	color: #303137;
+	font-size: 50px;
+	text-decoration: none !important;
+}
+
+.headingbottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headingbottom a {
+	color: #303137;
+	font-size: 25px;
+	text-decoration: none !important;
+}
+
+.head1{
+	margin-top: 50px;
+}
+
+.head2 {
+	margin: 50px;
+}
+
+.head3 {
+	margin: 50px;
+}
+
+.head4 {
+	margin: 50px;
+}
+
+.head5 {
+	margin: 50px;
+}
+
+/*contact me form*/
+
+.fcontainer1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+label {
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 25px;
+	font-weight: normal !important;
+	margin-right: 10px;
+}
+
+.contactme {
+	margin-left: 13%;
+}
+
+.name label {
+	display: block;
+	justify-content: left;
+	align-items: left;
+	margin: 5px;
+}
+
+.name input {
+	font-family: 'Darker Grotesque', sans-serif !important;
+	font-size: 25px;
+}
+
+#name {
+	width: 84%;
+	height: auto;
+}
+
+.email label {
+	display: block;
+	justify-content: left;
+	align-items: left;
+	margin: 5px;
+}
+
+.email input {
+	font-family: 'Darker Grotesque', sans-serif !important;
+	font-size: 25px;
+}
+
+#email {
+	width: 84%;
+	height: auto;
+}
+
+.service label {
+	display: block;
+	justify-content: left;
+	align-items: left;
+	margin: 5px;
+}
+
+.service input {
+	font-family: 'Darker Grotesque', sans-serif !important;
+	font-size: 25px;
+}
+
+#service {
+	height: 45px;
+	width: 20%;
+}
+
+.service option {
+	font-size: 25px;
+}
+
+.description label {
+	display: block;
+	justify-content: left;
+	align-items: left;
+	margin: 5px;
+}
+
+#description {
+	width: 84%;
+	height: auto;
+}
+
+.message label {
+	display: block;
+	justify-content: left;
+	align-items: left;
+	margin: 5px;	
+}
+
+#message {
+	width: 84%;
+	height: auto;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.submit {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	font-size: 23px;
+	width: 60px;
+	height: 45px;
+}
+
+/* FOOTER */
+
+.footer {
+	background-color: #d2b48c;
+	height: 150px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
+}
+
+.footertop {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.footertop p {
+	font-family: 'Darker Grotesque', sans-serif;
+	font-size: 25px;
+}
+
+.footerbottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footerbottom a img {
+	background-color: transparent;
+} 
+
+.fb a img {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.ig a img {
+	width: 40px;
+	height: 40px;
+}
+
+.pagewrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.body {
+	flex-grow: 1;
+}
+
